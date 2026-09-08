@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+print<<_END_OF_TEXT_
+<HEAD>
+<TITLE>KidsTown: Help</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#EEE2B4" TEXT="BLACK" ALINK="RED" LINK="BLUE" VLINK="PURPLE">
+
+<H1 ALIGN="CENTER">
+<FONT SIZE=+4>KidsTown</FONT>
+<BR>
+Help
+</H1>
+</BODY>
+_END_OF_TEXT_

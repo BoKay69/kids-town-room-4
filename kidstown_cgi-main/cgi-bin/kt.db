@@ -1,0 +1,778 @@
+#101#homescripts/passer.pl passer_file_name=../htdocs/index.html
+#102#homescripts/navbar.pl HelpState=15000
+
+#1000#homescripts/mainPgHdr.pl
+#1000#homescripts/ktmap.pl
+#1000#homescripts/mainPgTxt.pl
+#1000#homescripts/navbar.pl HelpState=1010
+#1000#homescripts/mainPgFtr.pl
+
+#1010#homescripts/helphdr.pl
+#1010#homescripts/ktmap.pl
+#1010#homescripts/helptxt.pl
+#1010#homescripts/navbar.pl HelpState=1010
+
+#1100#homescripts/about.pl
+#1100#homescripts/navbar.pl HelpState=1010
+#1200#homescripts/participants.pl
+
+
+#2000#cityparkscripts/main.pl
+#2000#homescripts/navbar.pl
+#2010#cityparkscripts/page.pl
+#2010#homescripts/navbar.pl 
+
+#3000#townshipscripts/maintownship.pl
+#3000#homescripts/navbar.pl
+#3001#townshipscripts/zeus.pl
+#3001#homescripts/navbar.pl
+#3003#townshipscripts/pyramid.pl
+#3003#homescripts/navbar.pl
+#3004#townshipscripts/wall.pl
+#3004#homescripts/navbar.pl
+#3005#townshipscripts/tajmahal.pl
+#3005#homescripts/navbar.pl
+#3007#townshipscripts/wonders.pl
+#3007#homescripts/navbar.pl
+
+#3008#townshipscripts/matchhead.pl
+#3008#townshipscripts/match.pl
+#3008#townshipscripts/match1.pl
+#3008#townshipscripts/matchbot.pl
+#3008#homescripts/navbar.pl
+
+#3010#townshipscripts/matchhead.pl
+#3010#townshipscripts/match.pl
+#3010#townshipscripts/match1c1.pl
+#3010#townshipscripts/matchbot.pl
+#3010#homescripts/navbar.pl
+
+#3012#townshipscripts/matchhead.pl
+#3012#townshipscripts/match.pl
+#3012#townshipscripts/match1c2.pl
+#3012#townshipscripts/matchbot.pl
+#3012#homescripts/navbar.pl
+
+#3014#townshipscripts/matchhead.pl
+#3014#townshipscripts/match.pl
+#3014#townshipscripts/match1c3.pl
+#3014#townshipscripts/matchbot.pl
+#3014#homescripts/navbar.pl
+
+#3016#townshipscripts/matchhead.pl
+#3016#townshipscripts/mat_fran.pl
+#3016#townshipscripts/matchbot.pl
+#3016#homescripts/navbar.pl
+
+#3018#townshipscripts/matchhead.pl
+#3018#townshipscripts/mat_aus.pl
+#3018#townshipscripts/matchbot.pl
+#3018#homescripts/navbar.pl
+
+#3020#townshipscripts/matchhead.pl
+#3020#townshipscripts/mat_jap.pl
+#3020#townshipscripts/matchbot.pl
+#3020#homescripts/navbar.pl
+
+#3022#townshipscripts/matchhead.pl
+#3022#townshipscripts/match2.pl
+#3022#townshipscripts/matchbot.pl
+#3022#homescripts/navbar.pl
+
+#3024#townshipscripts/matchhead.pl
+#3024#townshipscripts/match2c1.pl
+#3024#townshipscripts/matchbot.pl
+#3024#homescripts/navbar.pl
+
+#3026#townshipscripts/matchhead.pl
+#3026#townshipscripts/match2c2.pl
+#3026#townshipscripts/matchbot.pl
+#3026#homescripts/navbar.pl
+
+#3028#townshipscripts/matchhead.pl
+#3028#townshipscripts/match2c3.pl
+#3028#townshipscripts/matchbot.pl
+#3028#homescripts/navbar.pl
+
+#3030#townshipscripts/matchhead.pl
+#3030#townshipscripts/match3.pl
+#3030#townshipscripts/matchbot.pl
+#3030#homescripts/navbar.pl
+
+#3032#townshipscripts/matchhead.pl
+#3032#townshipscripts/match3c1.pl
+#3032#townshipscripts/matchbot.pl
+#3032#homescripts/navbar.pl
+
+#3034#townshipscripts/matchhead.pl
+#3034#townshipscripts/match3c2.pl
+#3034#townshipscripts/matchbot.pl
+#3034#homescripts/navbar.pl
+
+#3036#townshipscripts/matchhead.pl
+#3036#townshipscripts/match3c3.pl
+#3036#townshipscripts/matchbot.pl
+#3036#homescripts/navbar.pl
+
+#3038#townshipscripts/matchhead.pl
+#3038#townshipscripts/match4.pl
+#3038#townshipscripts/matchbot.pl
+#3038#homescripts/navbar.pl
+
+#3040#townshipscripts/matchhead.pl
+#3040#townshipscripts/match4c1.pl
+#3040#townshipscripts/matchbot.pl
+#3040#homescripts/navbar.pl
+
+#3042#townshipscripts/matchhead.pl
+#3042#townshipscripts/match4c2.pl
+#3042#townshipscripts/matchbot.pl
+#3042#homescripts/navbar.pl
+
+#3044#townshipscripts/matchhead.pl
+#3044#townshipscripts/match4c3.pl
+#3044#townshipscripts/matchbot.pl
+#3044#homescripts/navbar.pl
+
+#3046#townshipscripts/matchhead.pl
+#3046#townshipscripts/match5.pl
+#3046#townshipscripts/matchbot.pl
+#3046#homescripts/navbar.pl
+
+#3048#townshipscripts/matchhead.pl
+#3048#townshipscripts/match5c1.pl
+#3048#townshipscripts/matchbot.pl
+#3048#homescripts/navbar.pl
+
+#3050#townshipscripts/matchhead.pl
+#3050#townshipscripts/match5c2.pl
+#3050#townshipscripts/matchbot.pl
+#3050#homescripts/navbar.pl
+
+#3052#townshipscripts/matchhead.pl
+#3052#townshipscripts/match5c3.pl
+#3052#townshipscripts/matchbot.pl
+#3052#homescripts/navbar.pl
+
+#3054#townshipscripts/matchhead.pl
+#3054#townshipscripts/match6.pl
+#3054#townshipscripts/matchbot.pl
+#3054#homescripts/navbar.pl
+
+#3056#townshipscripts/matchhead.pl
+#3056#townshipscripts/match6c1.pl
+#3056#townshipscripts/matchbot.pl
+#3056#homescripts/navbar.pl
+
+#3058#townshipscripts/matchhead.pl
+#3058#townshipscripts/match6c2.pl
+#3058#townshipscripts/matchbot.pl
+#3058#homescripts/navbar.pl
+
+#3060#townshipscripts/matchhead.pl
+#3060#townshipscripts/match6c3.pl
+#3060#townshipscripts/matchbot.pl
+#3060#homescripts/navbar.pl
+
+#3062#townshipscripts/matchhead.pl
+#3062#townshipscripts/finland.pl
+#3062#townshipscripts/matchbot.pl
+#3062#homescripts/navbar.pl
+
+#3064#townshipscripts/matchhead.pl
+#3064#townshipscripts/Egypt.pl
+#3064#townshipscripts/matchbot.pl
+#3064#homescripts/navbar.pl
+
+#3066#townshipscripts/matchhead.pl
+#3066#townshipscripts/jamaica.pl
+#3066#townshipscripts/matchbot.pl
+#3066#homescripts/navbar.pl
+
+#3068#townshipscripts/matchhead.pl
+#3068#townshipscripts/gabon.pl
+#3068#townshipscripts/matchbot.pl
+#3068#homescripts/navbar.pl
+
+#3070#townshipscripts/matchhead.pl
+#3070#townshipscripts/ukraine.pl
+#3070#townshipscripts/matchbot.pl
+#3070#homescripts/navbar.pl
+
+#3072#townshipscripts/matchhead.pl
+#3072#townshipscripts/saudi.pl
+#3072#townshipscripts/matchbot.pl
+#3072#homescripts/navbar.pl
+
+#3074#townshipscripts/matchhead.pl
+#3074#townshipscripts/thai.pl
+#3074#townshipscripts/matchbot.pl
+#3074#homescripts/navbar.pl
+
+#3076#townshipscripts/matchhead.pl
+#3076#townshipscripts/spain.pl
+#3076#townshipscripts/matchbot.pl
+#3076#homescripts/navbar.pl
+
+#3078#townshipscripts/matchhead.pl
+#3078#townshipscripts/venez.pl
+#3078#townshipscripts/matchbot.pl
+#3078#homescripts/navbar.pl
+
+#3080#townshipscripts/matchhead.pl
+#3080#townshipscripts/antarc.pl
+#3080#townshipscripts/matchbot.pl
+#3080#homescripts/navbar.pl
+
+#3082#townshipscripts/matchhead.pl
+#3082#townshipscripts/madagas.pl
+#3082#townshipscripts/matchbot.pl
+#3082#homescripts/navbar.pl
+
+#3084#townshipscripts/matchhead.pl
+#3084#townshipscripts/china.pl
+#3084#townshipscripts/matchbot.pl
+#3084#homescripts/navbar.pl
+
+#3086#townshipscripts/matchhead.pl
+#3086#townshipscripts/mexico.pl
+#3086#townshipscripts/matchbot.pl
+#3086#homescripts/navbar.pl
+
+#3088#townshipscripts/matchhead.pl
+#3088#townshipscripts/laos.pl
+#3088#townshipscripts/matchbot.pl
+#3088#homescripts/navbar.pl
+
+#3090#townshipscripts/matchhead.pl
+#3090#townshipscripts/turkey.pl
+#3090#townshipscripts/matchbot.pl
+#3090#homescripts/navbar.pl
+
+#3100#townshipscripts/mainwonders.pl
+#3100#homescripts/navbar.pl
+
+#4000#schoolscripts/mainPage.pl
+#4000#homescripts/navbar.pl
+#4001#schoolscripts/wordfun.pl
+#4001#homescripts/navbar.pl HelpState=4004
+#4002#schoolscripts/e_scramble.pl
+#4002#homescripts/navbar.pl HelpState=4003
+#4003#schoolscripts/open.pl
+#4003#homescripts/navbar.pl
+#4004#schoolscripts/wordfunhelp.pl
+
+#4500#schoolscripts/FarmTown1.pl
+#4500#homescripts/navbar.pl
+
+#4510#schoolscripts/FarmTown2.pl
+#4510#schoolscripts/FarmTownAniNav.pl
+#4510#schoolscripts/FarmTownNav.pl
+#4510#homescripts/navbar.pl
+
+#4511#schoolscripts/FarmTown2-1.pl
+#4511#schoolscripts/FarmTownAniNav.pl
+#4511#schoolscripts/FarmTownNav.pl
+#4511#homescripts/navbar.pl
+
+#4512#schoolscripts/FarmTown2-2.pl
+#4512#schoolscripts/FarmTownAniNav.pl
+#4512#schoolscripts/FarmTownNav.pl
+#4512#homescripts/navbar.pl
+
+#4513#schoolscripts/FarmTown2-3.pl
+#4513#schoolscripts/FarmTownAniNav.pl
+#4513#schoolscripts/FarmTownNav.pl
+#4513#homescripts/navbar.pl
+
+#4514#schoolscripts/FarmTown2-4.pl
+#4514#schoolscripts/FarmTownAniNav.pl
+#4514#schoolscripts/FarmTownNav.pl
+#4514#homescripts/navbar.pl
+
+#4515#schoolscripts/FarmTown2-5.pl
+#4515#schoolscripts/FarmTownAniNav.pl
+#4515#schoolscripts/FarmTownNav.pl
+#4515#homescripts/navbar.pl
+
+#4516#schoolscripts/FarmTown2-6.pl
+#4516#schoolscripts/FarmTownAniNav.pl
+#4516#schoolscripts/FarmTownNav.pl
+#4516#homescripts/navbar.pl
+
+#4517#schoolscripts/FarmTown2-7.pl
+#4517#schoolscripts/FarmTownAniNav.pl
+#4517#schoolscripts/FarmTownNav.pl
+#4517#homescripts/navbar.pl
+
+#4530#schoolscripts/FarmTown3.pl
+#4530#homescripts/navbar.pl
+
+#4540#schoolscripts/FarmTown4.pl
+#4540#schoolscripts/FarmTownPltNav.pl
+#4540#schoolscripts/FarmTownNav.pl
+#4540#homescripts/navbar.pl
+
+#4541#schoolscripts/FarmTown4-1.pl
+#4541#schoolscripts/FarmTownPltNav.pl
+#4541#schoolscripts/FarmTownNav.pl
+#4541#homescripts/navbar.pl
+
+#4542#schoolscripts/FarmTown4-2.pl
+#4542#schoolscripts/FarmTownPltNav.pl
+#4542#schoolscripts/FarmTownNav.pl
+#4542#homescripts/navbar.pl
+
+#4544#schoolscripts/FarmTown4-4.pl
+#4544#schoolscripts/FarmTownPltNav.pl
+#4544#schoolscripts/FarmTownNav.pl
+#4544#homescripts/navbar.pl
+
+#4545#schoolscripts/FarmTown4-5.pl
+#4545#schoolscripts/FarmTownPltNav.pl
+#4545#schoolscripts/FarmTownNav.pl
+#4545#homescripts/navbar.pl
+
+#4546#schoolscripts/FarmTown4-6.pl
+#4546#schoolscripts/FarmTownPltNav.pl
+#4546#schoolscripts/FarmTownNav.pl
+#4546#homescripts/navbar.pl
+
+#4547#schoolscripts/FarmTown4-7.pl
+#4547#schoolscripts/FarmTownPltNav.pl
+#4547#schoolscripts/FarmTownNav.pl
+#4547#homescripts/navbar.pl
+
+#4548#schoolscripts/FarmTown4-8.pl
+#4548#schoolscripts/FarmTownPltNav.pl
+#4548#schoolscripts/FarmTownNav.pl
+#4548#homescripts/navbar.pl
+
+#4560#schoolscripts/FarmTown5.pl
+#4560#schoolscripts/FarmTownNav.pl
+#4560#homescripts/navbar.pl
+
+#5000#cityhallscripts/cityheader.pl
+#5000#cityhallscripts/cityhall.pl
+#5000#homescripts/navbar.pl HelpState=5900
+
+#5010#cityhallscripts/cityheader.pl
+#5010#cityhallscripts/bbb1.pl
+#5010#homescripts/navbar.pl HelpState=5900
+
+#5020#cityhallscripts/cityheader.pl
+#5020#cityhallscripts/bbb2a.pl
+#5020#homescripts/navbar.pl HelpState=5900
+
+#5030#cityhallscripts/cityheader.pl
+#5030#cityhallscripts/bbb2b.pl
+#5030#homescripts/navbar.pl HelpState=5900
+
+#5040#cityhallscripts/cityheader.pl
+#5040#cityhallscripts/bbb3-3.pl
+#5040#homescripts/navbar.pl HelpState=5900
+
+#5050#cityhallscripts/cityheader.pl
+#5050#cityhallscripts/bbb3-5.pl
+#5050#homescripts/navbar.pl HelpState=5900
+
+#5060#cityhallscripts/cityheader.pl
+#5060#cityhallscripts/bbb3a.pl
+#5060#homescripts/navbar.pl HelpState=5900
+
+#5070#cityhallscripts/cityheader.pl
+#5070#cityhallscripts/bbb3b.pl
+#5070#homescripts/navbar.pl HelpState=5900
+
+#5080#cityhallscripts/cityheader.pl
+#5080#cityhallscripts/bbb3c.pl
+#5080#homescripts/navbar.pl HelpState=5900
+
+#5090#cityhallscripts/cityheader.pl
+#5090#cityhallscripts/bbb4-3.pl
+#5090#homescripts/navbar.pl HelpState=5900
+
+#5100#cityhallscripts/cityheader.pl
+#5100#cityhallscripts/bbb4-5.pl
+#5100#homescripts/navbar.pl HelpState=5900
+
+#5110#cityhallscripts/cityheader.pl
+#5110#cityhallscripts/bbb4-6.pl
+#5110#homescripts/navbar.pl HelpState=5900
+
+#5120#cityhallscripts/cityheader.pl
+#5120#cityhallscripts/bbb4a.pl
+#5120#homescripts/navbar.pl HelpState=5900
+
+#5130#cityhallscripts/cityheader.pl
+#5130#cityhallscripts/bbb4c.pl
+#5130#homescripts/navbar.pl HelpState=5900
+
+#5140#cityhallscripts/cityheader.pl
+#5140#cityhallscripts/bbb4s.pl
+#5140#homescripts/navbar.pl HelpState=5900
+
+#5150#cityhallscripts/cityheader.pl
+#5150#cityhallscripts/bbb5-4.pl
+#5150#homescripts/navbar.pl HelpState=5900
+
+#5160#cityhallscripts/cityheader.pl
+#5160#cityhallscripts/bbb5-6.pl
+#5160#homescripts/navbar.pl HelpState=5900
+
+#5170#cityhallscripts/cityheader.pl
+#5170#cityhallscripts/bbb5a.pl
+#5170#homescripts/navbar.pl HelpState=5900
+
+#5180#cityhallscripts/cityheader.pl
+#5180#cityhallscripts/bbb5s.pl
+#5180#homescripts/navbar.pl HelpState=5900
+
+#5190#cityhallscripts/cityheader.pl
+#5190#cityhallscripts/bbb6-4.pl
+#5190#homescripts/navbar.pl HelpState=5900
+
+#5200#cityhallscripts/cityheader.pl
+#5200#cityhallscripts/bbb6-5.pl
+#5200#homescripts/navbar.pl HelpState=5900
+
+#5210#cityhallscripts/cityheader.pl
+#5210#cityhallscripts/bbb6a.pl
+#5210#homescripts/navbar.pl HelpState=5900
+
+#5220#cityhallscripts/cityheader.pl
+#5220#cityhallscripts/bbb6b.pl
+#5220#homescripts/navbar.pl HelpState=5900
+
+#5230#cityhallscripts/cityheader.pl
+#5230#cityhallscripts/bbb6s.pl
+#5230#homescripts/navbar.pl HelpState=5900
+
+#5240#cityhallscripts/cityheader.pl
+#5240#cityhallscripts/bbbend.pl
+#5240#homescripts/navbar.pl HelpState=5900
+
+#5250#cityhallscripts/cityheader.pl
+#5250#cityhallscripts/cap1.pl
+#5250#homescripts/navbar.pl HelpState=5900
+
+#5260#cityhallscripts/cityheader.pl
+#5260#cityhallscripts/cap2.pl
+#5260#homescripts/navbar.pl HelpState=5900
+
+#5270#cityhallscripts/cityheader.pl
+#5270#cityhallscripts/cap3.pl
+#5270#homescripts/navbar.pl HelpState=5900
+
+#5280#cityhallscripts/cityheader.pl
+#5280#cityhallscripts/cap4.pl
+#5280#homescripts/navbar.pl HelpState=5900
+
+#5290#cityhallscripts/cityheader.pl
+#5290#cityhallscripts/cap5.pl
+#5290#homescripts/navbar.pl HelpState=5900
+
+#5300#cityhallscripts/cityheader.pl
+#5300#cityhallscripts/capend.pl
+#5300#homescripts/navbar.pl HelpState=5900
+
+#5900#cityhallscripts/cityheader.pl
+#5900#cityhallscripts/help.pl
+#5900#homescripts/navbar.pl HelpState=5900
+
+
+#6000#libraryscripts/library.pl
+#6000#homescripts/navbar.pl
+#6010#libraryscripts/NorthWest.pl
+#6010#homescripts/navbar.pl
+#6020#libraryscripts/SouthWest.pl 
+#6020#homescritps/navbar.pl
+#6030#libraryscripts/NorthCentral.pl
+#6030#homescripts/navbar.pl
+#6040#libraryscripts/SouthCentral.pl
+#6040#homescripts/navbar.pl
+#6050#libraryscripts/SouthEast.pl  
+#6050#homescripts/navbar.pl
+#6060#libraryscripts/MidAtlantic.pl
+#6060#homescripts/navbar.pl
+#6070#libraryscripts/NewEngland.pl
+#6070#homescripts/navbar.pl
+
+#6100#homescripts/navbar.pl
+#6100#libraryscripts/statepage.pl
+#6100#homescripts/navbar.pl
+
+#6200#homescripts/navbar.pl
+#6200#libraryscripts/srchpass.pl
+#6200#homescripts/navbar.pl
+
+#6300#homescripts/navbar.pl
+#6300#libraryscripts/b_wi_tale.pl
+#6300#homescripts/navbar.pl
+
+#6400#homescripts/navbar.pl
+#6400#libraryscripts/witale.pl
+#6400#homescripts/navbar.pl
+
+#6500#homescripts/navbar.pl
+#6500#libraryscripts/b_or_tale.pl
+#6500#homescripts/navbar.pl
+
+#6600#homescripts/navbar.pl
+#6600#libraryscripts/ortale.pl
+#6600#homescripts/navbar.pl
+
+#6700#homescripts/navbar.pl
+#6700#libraryscripts/b_ct_tale.pl
+#6700#homescripts/navbar.pl
+
+#6800#homescripts/navbar.pl
+#6800#libraryscripts/ctale.pl
+#6800#homescripts/navbar.pl
+
+#6900#homescripts/navbar.pl
+#6900#libraryscripts/b_ny_fillin_db.pl
+#6900#homescripts/navbar.pl
+
+#6910#homescripts/navbar.pl
+#6910#libraryscripts/b_fillin_db.pl
+#6910#homescripts/navbar.pl
+
+#6920#homescripts/navbar.pl
+#6920#libraryscripts/b_dc_fillin_db.pl
+#6920#homescripts/navbar.pl
+
+#7000#toystorescripts/toystore.pl
+#7000#homescripts/navbar.pl
+#7010#toystorescripts/poem1.pl
+#7010#homescripts/navbar.pl
+#7020#toystorescripts/poem2.pl
+#7020#homescripts/navbar.pl
+#7030#toystorescripts/poem3.pl
+#7030#homescripts/navbar.pl
+#7040#toystorescripts/poem4.pl
+#7040#homescripts/navbar.pl
+#7050#toystorescripts/poem5.pl
+#7050#homescripts/navbar.pl
+#7060#toystorescripts/poem6.pl
+#7060#homescripts/navbar.pl
+#7070#toystorescripts/poem7.pl
+#7070#homescripts/navbar.pl
+#7080#toystorescripts/answer1.pl
+#7080#homescripts/navbar.pl
+#7090#toystorescripts/answer2.pl
+#7090#homescripts/navbar.pl
+#7100#toystorescripts/answer3.pl
+#7100#homescripts/navbar.pl
+#7110#toystorescripts/answer4.pl
+#7110#homescripts/navbar.pl
+#7120#toystorescripts/answer5.pl
+#7120#homescripts/navbar.pl
+#7130#toystorescripts/answer6.pl
+#7130#homescripts/navbar.pl
+#7140#toystorescripts/answer7.pl
+#7140#homescripts/navbar.pl
+#7150#toystorescripts/shapeP1.pl
+#7150#homescripts/navbar.pl
+#7160#toystorescripts/shapeP2.pl
+#7160#homescripts/navbar.pl
+#7170#toystorescripts/shapeP3.pl
+#7170#homescripts/navbar.pl
+#7180#toystorescripts/shapeP4.pl
+#7180#homescripts/navbar.pl
+#7190#toystorescripts/shapeP5.pl
+#7190#homescripts/navbar.pl
+#7200#toystorescripts/ans1.pl
+#7200#homescripts/navbar.pl
+#7210#toystorescripts/ans2.pl
+#7210#homescripts/navbar.pl
+#7220#toystorescripts/ans3.pl
+#7220#homescripts/navbar.pl
+#7230#toystorescripts/ans4.pl
+#7230#homescripts/navbar.pl
+#7240#toystorescripts/ans5.pl
+#7240#homescripts/navbar.pl
+#7250#toystorescripts/pp.pl
+#7250#homescripts/navbar.pl
+#7260#toystorescripts/tools.pl
+#7260#homescripts/navbar.pl
+#7270#toystorescripts/ppans.pl
+#7270#homescripts/navbar.pl
+
+#8000#museumscripts/museum.pl
+#8000#homescripts/navbar.pl HelpState=1010
+
+#8010#museumscripts/Welcolsec.pl
+#8010#homescripts/navbar.pl
+#8100#museumscripts/Rainbowstory.pl
+#8100#homescripts/navbar.pl
+#8110#museumscripts/page2.pl
+#8110#homescripts/navbar.pl
+#8120#museumscripts/page3.pl
+#8120#homescripts/navbar.pl
+#8130#museumscripts/page4.pl
+#8130#homescripts/navbar.pl
+#8140#museumscripts/page5.pl
+#8140#homescripts/navbar.pl
+#8150#museumscripts/page6.pl
+#8150#homescripts/navbar.pl HelpState=1010
+
+#8500#museumscripts/wizard.pl
+#8500#museumscripts/planetnav.pl
+#8500#homescripts/navbar.pl HelpState=8540
+#8510#museumscripts/wizard.pl data=ss1.dat
+#8510#museumscripts/planetnav.pl
+#8510#homescripts/navbar.pl HelpState=8540
+#8520#museumscripts/wizard.pl data=ss2.dat
+#8520#museumscripts/planetnav.pl
+#8520#homescripts/navbar.pl HelpState=8540
+#8540#museumscripts/wizhelp.pl
+#8540#museumscripts/planetnav.pl
+#8540#homescripts/navbar.pl HelpState=1010
+#8550#museumscripts/planet.pl
+#8550#homescripts/navbar.pl HelpState=8540
+
+#9000#zooscripts/body.pl
+#9000#homescripts/navbar.pl HelpState=9600
+#9000#zooscripts/header.pl ZooHeader=KidsTown+Zoo
+#9000#zooscripts/zoo.pl
+#9000#zooscripts/zoonavbar.pl
+#9000#homescripts/navbar.pl HelpState=9600
+
+#9100#zooscripts/body.pl
+#9100#homescripts/navbar.pl HelpState=9600
+#9100#zooscripts/header.pl ZooHeader=Animals+of+the+Ocean
+#9100#zooscripts/ocean.pl
+#9100#zooscripts/zoonavbar.pl
+#9100#homescripts/navbar.pl HelpState=9600
+
+#9110#zooscripts/body.pl
+#9110#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9110#zooscripts/d6_oc1.pl
+#9110#zooscripts/zoonavbar.pl
+#9110#homescripts/navbar.pl HelpState=9600
+
+#9120#zooscripts/body.pl
+#9120#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9120#zooscripts/d6_oc11.pl
+#9120#zooscripts/zoonavbar.pl
+#9120#homescripts/navbar.pl HelpState=9600
+
+#9130#zooscripts/body.pl
+#9130#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9130#zooscripts/d6_oc12.pl
+#9130#zooscripts/zoonavbar.pl
+#9130#homescripts/navbar.pl HelpState=9600
+
+#9140#zooscripts/body.pl
+#9140#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9140#zooscripts/d6_oc13.pl
+#9140#zooscripts/zoonavbar.pl
+#9140#homescripts/navbar.pl HelpState=9600
+
+#9200#zooscripts/body.pl
+#9200#homescripts/navbar.pl HelpState=9600
+#9200#zooscripts/header.pl ZooHeader=Animals+of+Africa
+#9200#zooscripts/africa.pl
+#9200#zooscripts/zoonavbar.pl
+#9200#homescripts/navbar.pl HelpState=9600
+
+#9210#zooscripts/body.pl
+#9210#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9210#zooscripts/d6_af1.pl
+#9210#zooscripts/zoonavbar.pl
+#9210#homescripts/navbar.pl HelpState=9600
+
+#9220#zooscripts/body.pl
+#9220#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9220#zooscripts/d6_af11.pl
+#9220#zooscripts/zoonavbar.pl
+#9220#homescripts/navbar.pl HelpState=9600
+
+#9230#zooscripts/body.pl
+#9230#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9230#zooscripts/d6_af12.pl
+#9230#zooscripts/zoonavbar.pl
+#9230#homescripts/navbar.pl HelpState=9600
+
+#9240#zooscripts/body.pl
+#9240#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9240#zooscripts/d6_af13.pl
+#9240#zooscripts/zoonavbar.pl
+#9240#homescripts/navbar.pl HelpState=9600
+
+#9300#zooscripts/body.pl
+#9300#homescripts/navbar.pl HelpState=9600
+#9300#zooscripts/header.pl ZooHeader=Animals+of+Australia
+#9300#zooscripts/australia.pl
+#9300#zooscripts/zoonavbar.pl
+#9300#homescripts/navbar.pl HelpState=9600 
+
+#9310#zooscripts/body.pl
+#9310#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9310#zooscripts/d6_au1.pl
+#9310#zooscripts/zoonavbar.pl
+#9310#homescripts/navbar.pl HelpState=9600
+
+#9320#zooscripts/body.pl
+#9320#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9320#zooscripts/d6_au11.pl
+#9320#zooscripts/zoonavbar.pl
+#9320#homescripts/navbar.pl HelpState=9600
+
+#9330#zooscripts/body.pl
+#9330#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9330#zooscripts/d6_au12.pl
+#9330#zooscripts/zoonavbar.pl
+#9330#homescripts/navbar.pl HelpState=9600
+
+#9340#zooscripts/body.pl
+#9340#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9340#zooscripts/d6_au13.pl
+#9340#zooscripts/zoonavbar.pl
+#9340#homescripts/navbar.pl HelpState=9600
+
+#9400#zooscripts/body.pl
+#9400#homescripts/navbar.pl HelpState=9600
+#9400#zooscripts/header.pl ZooHeader=Animals+of+the+Polar+Regions
+#9400#zooscripts/polar.pl
+#9400#zooscripts/zoonavbar.pl
+#9400#homescripts/navbar.pl HelpState=9600
+
+#9410#zooscripts/body.pl
+#9410#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9410#zooscripts/d6_ar1.pl
+#9410#zooscripts/zoonavbar.pl
+#9410#homescripts/navbar.pl HelpState=9600 
+
+#9420#zooscripts/body.pl
+#9420#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9420#zooscripts/d6_ar11.pl
+#9420#zooscripts/zoonavbar.pl
+#9420#homescripts/navbar.pl HelpState=9600
+
+#9430#zooscripts/body.pl
+#9430#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9430#zooscripts/d6_ar12.pl
+#9430#zooscripts/zoonavbar.pl
+#9430#homescripts/navbar.pl HelpState=9600
+
+#9440#zooscripts/body.pl
+#9440#zooscripts/header.pl ZooHeader=Zoo+Keeper's+Challenge
+#9440#zooscripts/d6_ar13.pl
+#9440#zooscripts/zoonavbar.pl
+#9440#homescripts/navbar.pl HelpState=9600 
+
+#9500#zooscripts/body.pl
+#9500#homescripts/navbar.pl HelpState=9600
+#9500#zooscripts/header.pl ZooHeader=World+Map
+#9500#zooscripts/worldmap.pl
+#9500#zooscripts/zoonavbar.pl
+#9500#homescripts/navbar.pl HelpState=9600 
+
+#9600#zooscripts/body.pl
+#9600#homescripts/navbar.pl HelpState=9600
+#9600#zooscripts/header.pl ZooHeader=Zoo+Help+Page
+#9600#zooscripts/help.pl
+#9600#zooscripts/zoonavbar.pl
+#9600#homescripts/navbar.pl HelpState=9600 

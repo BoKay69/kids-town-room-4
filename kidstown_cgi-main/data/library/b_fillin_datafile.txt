@@ -1,0 +1,119 @@
+Fill-in-the-Blank Solution Data File
+#<HTML><PRE>
+# File Name:  b_fillin_datafile.txt
+#
+# This file is used by the cgi script "b_fillin_db.cgi" to generate the
+# answer pages for the Fill In The Blank games
+#_____________________________________________________________________________
+# EXPLANATION FOR INDIVIDUAL FIELDS:
+# 
+# RECORD	Record Number - The input from the HIDDEN field in the 
+#		front-end form is corresponded with this number.
+# HEADING	The title of the answer page.
+# TEXTCOLOR	Color of the page text.
+# PICTURE	Image on the left of the page title.
+# LINE		Image of a line or bar on top and bottom of the body text
+# SOL[1-5]	The right answer to each question asked in the front-end
+#		HTML pages.  Each solution has to be in the exact format as
+#		appeared in the set of choices in the HTML page.  This answer
+#		is used to compare with the user's answer, and is not
+#		displayed on the answer page.
+# PARAGRAPH[1-5]	The right answer displayed on the answer page.
+# ITEM[n,A-C]	Short paragraphs that expand more information on the 
+#		choices for each question.  Each question has 2 to 3 
+		ITEMs, labeled A, B, and C.
+# ___________________________________________________________________________
+.
+RECORD	1 - New York State
+HEADING	New York City Facts
+TEXTCOLOR	247F00
+PICTURE	b_ny_map.gif
+LINE	 sun-line.gif
+SOL1	World Trade Center Buildings
+SOL2	Madison Square Garden
+SOL3	Giovanni da Verrazano
+SOL4	Manhattan
+SOL5	One out of every 2
+PARAGRAPH1	<B>The World Trade Center Buildings</B> are the tallest at
+110 stories.  The Empire State Building is only 102 stories.  So what is
+the tallest skyscraper in the world?  When completed, the Petronas Towers
+in Kuala Lumpur, Malaysia, will be the tallest at 1,483 feet.
+
+ITEM1A	The Sears Tower is in Chicago.
+ITEM1B	The Leaning Tower of Pisa is in Italy.
+ITEM1C	Empire State Building is in New York, but it's too short
+PARAGRAPH2	<B>Madison Square Garden</B> is the most famous of New
+York City's sports centers.  The New York Rangers ice hockey team plays
+there along with the New York Knicks basketball team.
+ITEM2A	Coors Field is in Denver, Colorado.
+ITEM2B	Sun Devil Stadium is in Arizona.
+ITEM2C	Dodgers Stadium is in California.
+PARAGRAPH3	<B>Giovanni da Verrazano</B> was looking for a route to the Orient when he stumbled upon the Atlantic Coast and New York.
+ITEM3A	Alonso Alvarez de Pineda discovered the Texas coastline.
+ITEM3B	Marcos de Niza discovered Arizona.
+ITEM3C	Juan de Gaeten discovered Hawaii.
+PARAGRAPH4	<B>Manhattan</B> was the name given to the Native
+Americans who lived in the area called Manhattan today.   The Dutch bought
+New Amsterdam (Manhattan) for only $24.  Actually, the Native Americans
+who sold Manhattan weren't from that area; they were imposters.
+ITEM4A	Pequot were from the Connecticut area.
+ITEM4B	Apache were from the Southwestern United States.
+ITEM4C	Sioux were native to the Oregon region.
+PARAGRAPH5	<B>One out of every 2</B> Americans can trace their roots through Ellis Island.  Many people see the Statue of Liberty as the welcoming place for immigrants.  But immigrants actually were taken to Ellis Island to be processed into America.
+ITEM5A	Billions of people live on the planet Earth.  And the population 
+is still growing!!!
+ITEM5B	About 75 different languages are spoken in New York.
+ITEM5C	About 20 million people visit New York each year.
+.
+RECORD	2 - Washington, D.C.
+HEADING	Washington D.C. Facts
+TEXTCOLOR	0155fa
+PICTURE	b_usa_flag.gif
+LINE	 flag-line.gif
+SOL1	District of Columbia
+SOL2	Clara Barton
+SOL3	George Washington
+SOL4	Capital - many of these
+SOL5	18 months
+PARAGRAPH1	<B>D.C.</B> stands for the <B>District of Columbia</B>.  Washington D.C. is actually not a state, and it has only a delegate who can speak at committee meetings of Congress.  The people who live in the District of Columbia were only allowed to vote in presidential elections since 1964.
+ITEM1A	Every day people in Washington D.C. eat Donuts and drink Coffee.
+ITEM1B	In the 1800s, Donkeys and Cows may have been seen in the streets of our capital.
+ITEM1C	
+PARAGRAPH2	<B>Clara Barton</B> was a nurse during the Civil War.  She tended to the wounded solders in the capital.  After the war she founded the Red Cross.
+ITEM2A	Julia Ward Howe wrote &quot;The Battle Hymn of the Republic&quot;
+during the Civil War while she stayed at the Willard Hotel.
+ITEM2B	Susan Brownell Anthony was a suffragist, which means that she
+spoke out for a woman's right to vote.
+ITEM2C	
+PARAGRAPH3	<B>George Washington</B> never lived in the <I>&quot;President's House&quot;</I>.  But he laid the cornerstone for the Capitol Building in 1793.
+ITEM3A	Pierre L'Enfant was the original designer of the Federal City
+(later to be called Washington D.C.).
+ITEM3B	Theodore Roosevelt actually did live in the &quot;President's House&quot; but he later renamed it the &quot;White House&quot.
+ITEM3C	
+PARAGRAPH4	<B>Capital</B> is the term used for Washington D.C. because it is a &quot;seat of government&quot; for a state or a nation.  Washington D.C. is the capital of the United States of America.
+ITEM4A	Capitol refers to the building in which lawmakers meet.  The
+capitol building in Washington D.C. is where both houses of Congress meet to make laws.  There is a capitol in your home state too.
+ITEM4B	Capitalize means to write a word with an initial capital letter.  We always capitalize the name Washington.
+ITEM4C	
+PARAGRAPH5	<B>18 months</B> is the average lifespan of a $1 bill.  Did you know that American money is not made from trees?  The paper is actually made from cloth containing a mixture of 75% cotton and 25% linen.
+ITEM5A	5 years is the average time before a $10 bill has to be recycled.  Did you know that coins are not made in Washington D.C.?  They are only made by the Bureaus of Mint in Denver and Philadelphia.
+ITEM5B	 23 years is the life expectancy for a $100 bill.  There are also
+$500, $1000, $5,000, and $10,000 bills.
+ITEM5C	
+.
+RECORD	3
+HEADING	
+TEXTCOLOR	
+SOL1	
+SOL2	
+SOL3	
+SOL4	
+SOL5	
+PARAGRAPH1	
+ITEM1A	
+ITEM1B	
+ITEM1C	
+PARAGRAPH2	
+ITEM2A	
+ITEM2B	
+ITEM2C

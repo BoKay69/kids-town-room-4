@@ -1,0 +1,74 @@
+Group E logic, scramble, and spell activity data (medium level)
+##########################################################
+#
+# Place any comments before the first .\n
+#
+##########################################################
+
+# This is the medium level data file.  Words chosen for this
+# level are 5-8 letters and can be somewhat obscure.
+.
+WORD	hammer
+SENTENCE	A hammer is used to pound nails.
+GRAPHIC	hammer.jpg
+.
+WORD	clock
+SENTENCE	A clock is used to tell time.
+GRAPHIC	clock.jpg
+.
+WORD	house
+SENTENCE	A house has a roof.
+GRAPHIC	house.jpg
+.
+WORD	fruit
+SENTENCE	Eating fruit is good for you.
+GRAPHIC	fruit1.jpg
+.
+WORD	snail
+SENTENCE	A snail moves slowly.
+GRAPHIC	snail1.jpg
+.
+WORD	swing
+SENTENCE	It is fun to play on a swing.
+GRAPHIC	swing4.gif
+.
+WORD	horse
+SENTENCE	People ride on the back of a horse.
+GRAPHIC	horse1.jpg
+.
+WORD	zebra
+SENTENCE	A zebra has black and white stripes.
+GRAPHIC	zebra1.jpg
+.
+WORD	dinosaur
+SENTENCE	Some dinosaurs ate meat and others ate plants.
+GRAPHIC	DINO3.jpg
+.
+WORD	spider
+SENTENCE	All spiders have eight legs.
+GRAPHIC	Spider2.jpg
+.
+WORD	banana
+SENTENCE	Monkeys like to eat bananas.
+GRAPHIC	banana2.jpg
+.
+WORD	computer
+SENTENCE	Games can be played on a computer.
+GRAPHIC	comp3.jpg
+.
+WORD	mouse
+SENTENCE	A mouse is used to move the cursor on a computer screen.
+GRAPHIC	compmouse1.gif
+.
+WORD	camera
+SENTENCE	A picture is taken with a camera.
+GRAPHIC	camera1.jpg
+.
+WORD	dolphin
+SENTENCE	The sea is home to dolphins and whales.
+GRAPHIC	dolphin1.jpg
+.
+WORD	volcano
+SENTENCE	Lava flows from a volcano.
+GRAPHIC	volcano1.jpg
+.

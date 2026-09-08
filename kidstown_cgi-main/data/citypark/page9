@@ -1,0 +1,18 @@
+
+<IMG SRC="#ktini{cityparkgraphics}#/mountains.gif"
+ALT="Mountains" WIDTH=100 HEIGHT=90 HSPACE=10 VSPACE=10 ALIGN=right>
+The first street you pass is called Apple Street.  The next street you pass is called Birch Street.  
+
+<P>
+
+Which street do you think would come next, <A
+HREF="#ktini{engine}#?KEY=2010&page=10&name=#xname#&from=#page#">Willow
+Street</A>
+or <A
+HREF="#ktini{engine}#?KEY=2010&page=11&name=#xname#&from=#page#">Cherry
+Street</A>?
+
+<P>
+<A
+HREF="#ktini{engine}#?KEY=2010&page=#from#&name=#xname#&from=9">Back</A>
+

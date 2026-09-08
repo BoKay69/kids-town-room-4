@@ -1,0 +1,15 @@
+
+<IMG SRC="#ktini{cityparkgraphics}#/mountains.gif"
+ALT="Mountains" WIDTH=100 HEIGHT=90 HSPACE=10 VSPACE=10 ALIGN=right>
+#name#, you sure are good at figuring things out!
+You noticed that Apple Street started with the letter A,
+and Birch Street started with the letter B.
+So it would make sense to think that the next street would start with a C,
+and it does!  Cherry Street is the next street.
+<P>
+Now that you have that figured out, you <A
+HREF="#ktini{engine}#?KEY=2010&page=12&name=#xname#&from=#page#">continue</A>
+down the street, looking
+for the dome.<P> <A
+HREF="#ktini{engine}#?KEY=2010&page=9&name=#xname#&from=#page#">Back</A>
+

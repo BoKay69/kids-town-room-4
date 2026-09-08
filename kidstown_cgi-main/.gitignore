@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors and IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Temporary and backup files
+*.swp
+*.swo
+*~
+.#*
+*.log
+*.tmp
+*.temp

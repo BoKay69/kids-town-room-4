@@ -1,0 +1,28 @@
+
+<IMG SRC="#ktini{cityparkgraphics}#/dome.gif"
+ALT="Dome" WIDTH=100 HEIGHT=90 HSPACE=10 VSPACE=10 ALIGN=right>
+After walking several blocks you finally see the glint of the dome up
+ahead of you.<P>  <IMG SRC="#ktini{cityparkgraphics}#/bird.gif" WIDTH=84
+HEIGHT=95 ALIGN=left
+ALT="bird" HSPACE=10 VSPACE=10>Out of nowhere, the bird says, "Hey, #name#.
+I've got a little riddle for you. 
+
+<P>
+
+I happen to know that the address of the dome is 1369 Kids Town Lane.
+It is also on the right side of the street.
+I'll give you a clue as to how to get home if you can tell me what side
+of the street my house is on.
+<P>
+All I'll tell you is that the address of my house is even,
+meaning that the last number of the address ends with an even number.
+<P>
+<P>
+What side of the street do you suppose my house is on? <A
+HREF="#ktini{engine}#?KEY=2010&page=14&name=#xname#&from=#page#">Left</A>&nbsp;or&nbsp;<A
+HREF="#ktini{engine}#?KEY=2010&page=13&name=#xname#&from=#page#">Right</A>?"
+<P>
+
+<A
+HREF="#ktini{engine}#?KEY=2010&page=11&name=#xname#&from=#page#">Back</A>
+

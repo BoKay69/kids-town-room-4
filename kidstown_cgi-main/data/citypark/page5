@@ -1,0 +1,34 @@
+<IMG SRC="#ktini{cityparkgraphics}#/compass.gif"
+ALT="Compass" WIDTH=60 HEIGHT=60 HSPACE=10 VSPACE=10 ALIGN=right>As you approach the stand, you notice two things.
+First, you see that there is a compass on the stand.  That is interesting.
+Second, you see a small reddish bird next to the compass.  Unlike the 
+people still with you here in the park, you can't see through the bird.
+It looks kind of like a parakeet.<P>
+
+You get to the stand.  As you reach for the compass, you feel the leather book in your hand getting warm.  At that same moment the bird says, "Hey #name#, you should probably look in the book."<P>
+
+<IMG SRC="#ktini{cityparkgraphics}#/bird.gif" WIDTH=84 HEIGHT=95
+ALIGN=left ALT="bird" HSPACE=10
+VSPACE=10>The bird startles you.  As far as you know, only parrots talk, and this certainly doesn't look like a parrot.<P>
+
+<IMG SRC="#ktini{cityparkgraphics}#/directions.gif" ALT="Directions"
+WIDTH=100 HEIGHT=111
+HSPACE=10 VSPACE=10 ALIGN=right>You decide to do what it says.  You look
+in the book.  The first page still says, "#name#, FIND THE COMPASS," but
+now, there is 
+
+writing on the second page.  It says, "#name#, GO WEST AND FIND THE
+DOME."<P>
+
+You take the compass and find that you are facing North.  Using the
+directions of North, South, East and West from the picture, which way do
+you have to turn in order to be facing West?  
+
+<A HREF="#ktini{engine}#?KEY=2010&page=6&name=#xname#&from=#page#">Left</A>
+or <A
+HREF="#ktini{engine}#?KEY=2010&page=7&name=#xname#&from=5">Right</A>?
+
+
+<P>
+<A HREF="#ktini{engine}#?KEY=2010&page=4&name=#xname#&from=#page#">Back</A>
+

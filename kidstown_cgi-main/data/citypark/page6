@@ -1,0 +1,12 @@
+
+
+<IMG SRC="#ktini{cityparkgraphics}#/directionl.gif" ALT="Directions"
+WIDTH=100 HEIGHT=111
+HSPACE=10 VSPACE=10 ALIGN=right>You did it #name#!  If you are facing North, and you take a little turn to your left, you will then be facing West.<P>
+Let's <A
+HREF="#ktini{engine}#?KEY=2010&page=8&name=#xname#&from=#page#">continue</A>.
+Way to go!
+
+<P>
+<A HREF="#ktini{engine}#?KEY=2010&page=5&name=#xname#&from=#page#">Back</A>
+

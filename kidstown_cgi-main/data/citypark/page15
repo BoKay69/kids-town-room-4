@@ -1,0 +1,25 @@
+<IMG SRC="#ktini{cityparkgraphics}#/dome.gif"
+ALT="Dome" WIDTH=100 HEIGHT=90 HSPACE=10 VSPACE=10 ALIGN=right>The bird
+says to you, "#name#, the answer has been in your hands the whole time."
+You realize that the book in your hands is getting warm again.
+You open it up.  You see that the first two pages say the same thing,
+but now there is a third page.
+<P>
+
+<IMG SRC="#ktini{cityparkgraphics}#/bird.gif"
+ALT="Bird" WIDTH=84 HEIGHT=95 HSPACE=10 VSPACE=10 ALIGN=left>The page says,
+"#name#, this journey is over.
+There will be more to come, but now it is time to go home.
+Close your eyes, count backwards from 10 to 1 and you will be back to
+where you began." <P>
+
+Which way do you decide to count? <P>
+
+<A HREF="#ktini{engine}#?KEY=2010&page=16&name=#xname#&from=#page#">1,
+2, 3, 4, 5, 6, 7, 8, 9, 10</A> <P>
+
+<A HREF="#ktini{engine}#?KEY=2010&page=17&name=#xname#&from=#page#">10,
+9, 8, 7, 6, 5, 4, 3, 2, 1 </A><P>
+
+<A HREF="#ktini{engine}#?KEY=2010&page=18&name=#xname#&from=#page#">2,
+4, 6, 8, 10</A> <P>

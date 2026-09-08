@@ -1,0 +1,71 @@
+Group E logic, scramble, and spell activity data (easy level)
+##########################################################
+#
+# Place any comments before the first .\n
+#
+##########################################################
+
+# This is the easy level data file.  Words chosen for this
+# level are 3-5 letters and not obscure.
+# NOTE: Use a tab between key name and value. E.G. WORD<TAB>sock
+.
+WORD	sock
+SENTENCE	People wear socks on their feet.
+GRAPHIC	sock1.gif
+.
+WORD	cow
+SENTENCE	When a cow is hungry it eats grass.
+GRAPHIC	cow3.jpg
+.
+WORD	book
+SENTENCE	Reading a book is fun.
+GRAPHIC	book.gif
+.
+WORD	pig
+SENTENCE	A pig likes to roll in the mud.
+GRAPHIC	pig1.jpg
+.
+WORD	lion
+SENTENCE	A lion lives in Africa.
+GRAPHIC	lion1.jpg
+.
+WORD	bed
+SENTENCE	Many people sleep in beds.
+GRAPHIC	bed2.gif
+.
+WORD	bat
+SENTENCE	You can look for a bat in a cave.
+GRAPHIC	bat.jpg
+.
+WORD	rain
+SENTENCE	You get wet in the rain.
+GRAPHIC	rain.jpg
+.
+WORD	fish
+SENTENCE	My fish lives in a fishbowl.
+GRAPHIC	fish1.jpg
+.
+WORD	sled
+SENTENCE	You can use your sled in winter.
+GRAPHIC	sled.jpg
+.
+WORD	cat
+SENTENCE	Some cats chase mice.
+GRAPHIC	cat1.jpg
+.
+WORD	lemon
+SENTENCE	Most lemons are so sour that they make your mouth pucker.
+GRAPHIC	lemons2.jpg
+.
+WORD	eyes
+SENTENCE	Your eyes are part of your face.
+GRAPHIC	eyes.jpg
+.
+WORD	bee
+SENTENCE	We get honey from bees.
+GRAPHIC	bee2.jpg
+.
+WORD	bread
+SENTENCE	Bakers use wheat to make bread.
+GRAPHIC	bread.jpg
+.

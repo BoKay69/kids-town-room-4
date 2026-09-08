@@ -1,0 +1,43 @@
+Group E logic, scramble, and spell activity data (difficult level)
+##########################################################
+#
+# Place any comments before the first .\n
+#
+##########################################################
+
+# This is the difficult level data file.  Words chosen for this
+# level are generally longer than 8 letters but are definetly 
+# more obscure than the previous two levels.
+.
+WORD	present
+SENTENCE	Opening a present is exciting.
+GRAPHIC	present2.gif
+.
+WORD	helicopter
+SENTENCE	A helicopter can take off vertically.
+GRAPHIC	helicopter1.gif
+.
+WORD	toucan
+SENTENCE	A toucan has a large beak.
+GRAPHIC	toucan1.jpg
+.
+WORD	stethoscope
+SENTENCE	A doctor uses a stethoscope to listen to your heart.
+GRAPHIC	stethoscope.jpg
+.
+WORD	falling
+SENTENCE	Carelessness can cause falling.
+GRAPHIC	falling3.gif
+.
+WORD	squirrel
+SENTENCE	Some squirrels eat nuts.
+GRAPHIC	squirrel1.jpg
+.
+WORD	woodpecker
+SENTENCE	A woodpecker pecks insects out of trees.
+GRAPHIC	woodpec1.jpg
+.
+WORD	penguin
+SENTENCE	Many penguins live at the South Pole.
+GRAPHIC	penguin1.jpg
+.

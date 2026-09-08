@@ -1,0 +1,48 @@
+#!/usr/ucb/perl
+
+print<<END_OF_TEXT;
+<HEAD>
+<TITLE>Library - Northwestern states</TITLE>
+</HEAD>
+<BODY TEXT="#000000" LINK="#0000ff" VLINK="#551a8b" ALINK="#ff0000" BGCOLOR="#A2F9CD">
+<MAP NAME="NorthWest">
+  <AREA SHAPE=POLY COORDS="75,3,159,26,160,38,150,71,150,94,135,88,90,87,73,
+83,68,79,62,83,55,77,54,63,49,64,48,57,39,56,39,14,44,7,75,26,76,26" 
+HREF="$ktini{'engine'}?KEY=6100&state=47">
+  <AREA SHAPE=POLY COORDS="37,62,55,66,55,78,66,84,70,79,81,86,137,88,151,95,
+150,108,144,121,136,121,137,144,126,183,6,151,6,129,32,85,31,77,37,73,34,67,
+34,67" HREF="$ktini{'engine'}?KEY=6100&state=37">
+  <AREA SHAPE=POLY COORDS="162,24,175,29,172,52,177,60,173,64,178,66,191,92,
+185,98,189,103,187,105,186,114,196,112,200,132,204,134,204,142,235,141,235,
+163,224,201,142,185,127,183,126,171,140,136,137,131,137,121,144,120,150,108,
+150,104,152,103,152,98,150,96,150,69,160,39,160,39,160,39" 
+HREF="$ktini{'engine'}?KEY=6100&state=12">
+  <AREA SHAPE=POLY COORDS="239,132,286,142,320,143,350,148,343,237,315,237,
+226,225,225,195,235,162,235,139,237,139,237,139" 
+HREF="$ktini{'engine'}?KEY=6100&state=50">
+  <AREA SHAPE=POLY COORDS="178,30,235,42,358,56,351,147,319,142,282,142,238,
+130,237,139,230,141,204,141,204,134,199,130,199,122,197,120,196,110,190,110,
+186,113,186,104,189,103,188,95,191,93,191,89,182,77,181,68,177,63,173,63,177,
+60,176,58,171,51,173,46,172,35" HREF="$ktini{'engine'}?KEY=6100&state=26">
+</MAP>
+<H1 ALIGN="CENTER">Welcome to the Northwestern states!</H1>
+<BR>To learn more about our states, click on each one and see what
+happens!<BR>
+<TABLE WIDTH=600 BORDER=0 CELLPADDING=3>
+<TR>
+<TD>
+<img src="$ktini{'librarygraphics'}/NorthWest.GIF" WIDTH=369 HEIGHT=250
+BORDER=0
+USEMAP="#NorthWest">
+<TD>
+<A HREF="$ktini{'engine'}?KEY=6100&state=12">Idaho (ID)</A><BR>
+<A HREF="$ktini{'engine'}?KEY=6100&state=26">Montana (MT)</A><BR>
+<A HREF="$ktini{'engine'}?KEY=6100&state=37">Oregon (OR)</A><BR>
+<A HREF="$ktini{'engine'}?KEY=6100&state=47">Washington (WA)</A><BR>
+<A HREF="$ktini{'engine'}?KEY=6100&state=50">Wyoming (WY)</A><BR>
+<TR>
+<TD ALIGN="CENTER">
+<A HREF="$ktini{'engine'}?KEY=6000">Return to USA map</A>
+</TABLE>
+</BODY>
+END_OF_TEXT

@@ -1,0 +1,21 @@
+
+<IMG SRC="#ktini{cityparkgraphics}#/dome.gif"
+ALT="Mountains" WIDTH=100 HEIGHT=90 HSPACE=10 VSPACE=10 ALIGN=right>
+Wow #name#, that was a hard riddle.  The dome has an odd address.
+Odd addresses end with 1, 3, 5, 7, or 9.
+The dome is on the right side of the street.
+<P>  <IMG SRC="#ktini{cityparkgraphics}#/bird.gif" WIDTH=84 HEIGHT=95
+ALIGN=left ALT="bird"
+HSPACE=10 VSPACE=10>  That makes you think odd addresses are on one side
+of the street and even addresses are on the other side of the street.
+The bird's house 
+has an even address (it ends with 2, 4, 6, or 8)
+so it is on the opposite side of the house as the dome.
+Therefore it is on the left side of the street.
+
+<P>
+<A
+HREF="#ktini{engine}#?KEY=2010&page=12&name=#xname#&from=#page#">Back</A>
+<P>
+
+

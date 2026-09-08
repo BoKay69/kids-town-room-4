@@ -1,0 +1,20 @@
+
+<IMG SRC="#ktini{cityparkgraphics}#/mountains.gif"
+ALT="Compass" WIDTH=100 HEIGHT=90 HSPACE=10 VSPACE=10 ALIGN=right>
+You leave the park and start walking West on a paved street.  After you have gone a little way you notice that way off in the distance, you can see snow capped mountains.  
+<IMG SRC="#ktini{cityparkgraphics}#/bird.gif" WIDTH=84 HEIGHT=95
+ALIGN=left ALT="bird" HSPACE=10
+VSPACE=10>You look over your shoulder and see that the bird is following you.  It says, "Hey, #name#, don't mind me.  I'm just here to help you out if you 
+
+
+get in any trouble."<P>
+
+
+You decide to <A
+HREF="#ktini{engine}#?KEY=2010&page=9&name=#xname#&from=#page#">Continue</A>.
+
+
+<P>
+<A
+HREF="#ktini{engine}#?KEY=2010&page=7&name=#xname#&from=#page#">Back</A>
+

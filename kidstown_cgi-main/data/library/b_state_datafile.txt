@@ -1,0 +1,1029 @@
+#State/Information Page Data File
+
+#<HTML><PRE>
+# File Name:  b_state_datafile.txt
+#
+# This file is used by the cgi script "b_statepage.cgi" to generate
+# the state pages
+#_____________________________________________________________________________
+.
+RECORD	1
+MAP	b_al_map.gif
+NAME	Alabama
+FLAG	b_al_flag.gif
+FLAG_IMG alabama.gif
+CAPITAL	Montgomery
+ADMITTED	Dec 14, 1819
+ORDER	22nd
+NICKNAME	Camellia State
+FLOWER	Camellia
+BIRD	Yellow Hammer
+TREE	Southern Pine
+SONG	Alabama
+ACTIVITY
+BACKGROUND	pzl2.gif  
+TEXTCOLOR   000000   	
+LINE	flag-line.gif
+LOCATION	Southeastern
+RETURN	6050
+.
+RECORD	2
+MAP	b_ak_map.gif
+NAME	Alaska
+FLAG	b_ak_flag.gif
+FLAG_IMG alaska.gif
+CAPITAL	Juneau
+ADMITTED	Jan 3, 1959
+ORDER	49th
+NICKNAME	Land of the Midnight Sun
+FLOWER	Forget-me-not
+BIRD	Willow Ptarmigan
+TREE	Sitka Spruce
+SONG	Alaska's Flag
+ACTIVITY	6200&page_passed=b_ak_wrdsrch.pl
+BACKGROUND	pzl2.gif  
+TEXTCOLOR
+LINE	mcolor-line.gif
+LOCATION
+RETURN
+.
+RECORD	3
+MAP	b_az_map.gif
+NAME	Arizona
+FLAG	b_az_flag.gif
+FLAG_IMG	arizona.gif
+CAPITAL	Phoenix
+ADMITTED	Feb 14, 1912
+ORDER	48th
+NICKNAME	Grand Canyon State
+FLOWER	Saguaro Cactus Blossom
+BIRD	Cactus Wren
+TREE	Paloverde
+SONG	Arizona
+ACTIVITY	6200&page_passed=b_az_wrdsrch.pl
+BACKGROUND	pzl2.gif  
+TEXTCOLOR
+LINE	fractal-line.gif
+LOCATION	Southwestern
+RETURN	6020
+.
+RECORD	4
+MAP	b_ar_map.gif
+NAME	Arkansas
+FLAG	b_ar_flag.gif
+FLAG_IMG arkansas.gif
+CAPITAL	Little Rock
+ADMITTED	Jun 15, 1836
+ORDER	25th
+NICKNAME	Land of Opportunity
+FLOWER	Apple Blossom
+BIRD	Mockingbird
+TREE	Pine
+SONG	Arkansas
+ACTIVITY
+BACKGROUND	pzl2.gif  
+TEXTCOLOR   000000	
+LINE	bead-line.gif
+LOCATION	South Central
+RETURN	6040
+.
+RECORD	5
+MAP	b_ca_map.gif
+NAME	California
+FLAG	b_ca_flag.gif
+FLAG_IMG california.gif
+CAPITAL	Sacramento
+ADMITTED	Sep 9, 1850
+ORDER	31st
+NICKNAME	Golden State
+FLOWER	California Poppy
+BIRD	California Valley Quail
+TREE	California Redwood
+SONG	I Love You, California
+ACTIVITY
+BACKGROUND	pzl2.gif  
+TEXTCOLOR   000000	
+LINE	palm-line.gif
+LOCATION	Southwestern
+RETURN	6020
+.
+RECORD	6
+MAP	b_co_map.gif
+NAME	Colorado
+FLAG	b_co_flag.gif
+FLAG_IMG colorado.gif
+CAPITAL	Denver
+ADMITTED	Aug 1, 1876
+ORDER	38th
+NICKNAME	Centennial State
+FLOWER	Rocky Mountain Columbine
+BIRD	Lark Bunting
+TREE	Colorado Blue Spruce
+SONG	Where the Columbines Grow
+ACTIVITY
+BACKGROUND	pzl2.gif  
+TEXTCOLOR   000000	
+LINE	flag-line.gif
+LOCATION	Southwestern
+RETURN	6020
+.
+RECORD	7
+MAP	b_ct_map.gif
+NAME	Connecticut
+FLAG	b_ct_flag.gif
+FLAG_IMG	connecticut.gif
+CAPITAL	Hartford
+ADMITTED	Jan 9, 1788
+ORDER	5th
+NICKNAME	Nutmeg State
+FLOWER	Mountain Laurel
+BIRD	American Robin
+TREE	White Oak
+SONG	Yankee Doodle
+ACTIVITY	6700
+BACKGROUND	pzl2.gif  
+TEXTCOLOR   000000	
+LINE	bead-line.gif
+LOCATION	New England
+RETURN	6070
+.
+RECORD	8
+MAP	b_de_map.gif
+NAME	Delaware
+FLAG	b_de_flag.gif
+FLAG_IMG delaware.gif
+CAPITAL	Dover
+ADMITTED	Dec 7, 1787
+ORDER	1st
+NICKNAME	First State
+FLOWER	Peach Blossom
+BIRD	Blue Hen Chicken
+TREE	American Holly
+SONG	Our Delaware
+ACTIVITY
+BACKGROUND	pzl2.gif  
+TEXTCOLOR   000000	
+LINE	train-line.gif
+LOCATION	Middle Atlantic
+RETURN	6060
+.
+RECORD	9
+MAP	b_fl_map.gif
+NAME	Florida
+FLAG	b_fl_flag.gif
+FLAG_IMG florida.gif
+CAPITAL	Tallahassee
+ADMITTED	Mar 3, 1845
+ORDER	27th
+NICKNAME	Sunshine State
+FLOWER	Orange Blossom
+BIRD	Mockingbird
+TREE	Sabal Palmetto Palm
+SONG	Old Folks at Home
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	Southeastern
+RETURN	6050
+.
+RECORD	10
+MAP	b_ga_map.gif
+NAME	Georgia
+FLAG	b_ga_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/georgia.gif
+CAPITAL	Atlanta
+ADMITTED	Jan 2, 1788
+ORDER	4th
+NICKNAME	Peach State
+FLOWER	Cherokee Rose
+BIRD	Brown Thrasher
+TREE	Live Oak
+SONG	Georgia on My Mind
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	Southeastern
+RETURN	6050
+.
+RECORD	11
+MAP	b_hi_map.gif
+NAME	Hawaii
+FLAG	b_hi_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/hawaii.gif
+CAPITAL	Honolulu
+ADMITTED	Aug 21, 1959
+ORDER	50th
+NICKNAME	The Aloha State
+FLOWER	Yellow Hibiscus
+BIRD	Hawaiian Goose(Nene)
+TREE	Kukui
+SONG	Hawai'i Pono'i
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/palm-line.gif
+LOCATION
+RETURN
+.
+RECORD	12
+MAP	b_id_map.gif
+NAME	Idaho
+FLAG	b_id_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/idaho.gif
+CAPITAL	Boise
+ADMITTED	Jul 3, 1890
+ORDER	43rd
+NICKNAME	Gem State
+FLOWER	Syringa
+BIRD	Mountain Bluebird
+TREE	White Pine
+SONG	Here We Have Idaho
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	Northwestern
+RETURN	6010
+.
+RECORD	13
+MAP	b_il_map.gif
+NAME	Illinois
+FLAG	b_il_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/illinois.gif
+CAPITAL	Springfield
+ADMITTED	Dec 3, 1818
+ORDER	21st
+NICKNAME	Prairie State
+FLOWER	Native Violet
+BIRD	Cardinal
+TREE	White Oak
+SONG	Illinois
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/bead-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	14
+MAP	b_in_map.gif
+NAME	Indiana
+FLAG	b_in_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/indiana.gif
+CAPITAL	Indianapolis
+ADMITTED	Dec 11, 1816
+ORDER	19th
+NICKNAME	Hoosier State
+FLOWER	Peony
+BIRD	Cardinal
+TREE	Tulip Poplar
+SONG	On the Banks of the Wabash
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/fractal-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	15
+MAP	b_ia_map.gif
+NAME	Iowa
+FLAG	b_ia_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/iowa.gif
+CAPITAL	Des Moines
+ADMITTED	Dec 28, 1846
+ORDER	29th
+NICKNAME	Hawkeye State
+FLOWER	Wild Rose
+BIRD	Eastern Goldfinch
+TREE	Oak
+SONG	None
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	16
+MAP	b_ks_map.gif
+NAME	Kansas
+FLAG	b_ks_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/kansas.gif
+CAPITAL	Topeka
+ADMITTED	Jan 29, 1861
+ORDER	34th
+NICKNAME	Sunflower State
+FLOWER	Native Sunflower
+BIRD	Western Meadowlark
+TREE	Cottonwood
+SONG	Home on the Range
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	17
+MAP	b_ky_map.gif
+NAME	Kentucky
+FLAG	b_ky_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/kentucky.gif
+CAPITAL	Frankfort
+ADMITTED	Jun 1, 1792
+ORDER	15th
+NICKNAME	Bluegrass State
+FLOWER	Goldenrod
+BIRD	Cardinal
+TREE	Kentucky Coffee Tree
+SONG	My Old Kentucky Home
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/train-line.gif
+LOCATION	Southeastern
+RETURN	6050
+.
+RECORD	18
+MAP	b_la_map.gif
+NAME	Louisiana
+FLAG	b_la_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/lousiana.gif
+CAPITAL	Baton Rouge
+ADMITTED	Apr 30, 1812
+ORDER	18th
+NICKNAME	Pelican State
+FLOWER	Magnolia
+BIRD	Eastern Brown Pelican
+TREE	Bald Cypress
+SONG	Give Me Louisiana
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	South Central
+RETURN	6040
+.
+RECORD	19
+MAP	b_me_map.gif
+NAME	Maine
+FLAG	b_me_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/maine.gif
+CAPITAL	Augusta
+ADMITTED	Mar 15, 1820
+ORDER	23rd
+NICKNAME	Pine Tree State
+FLOWER	White Pine Cone and Tassel
+BIRD	Chickadee
+TREE	Eastern White Pine
+SONG	State of Maine Song
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/fractal-line.gif
+LOCATION	New England
+RETURN	6070
+.
+RECORD	20
+MAP	b_md_map.gif
+NAME	Maryland
+FLAG	b_md_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/maryland.gif
+CAPITAL	Annapolis
+ADMITTED	Apr 28, 1788
+ORDER	7th
+NICKNAME	Old Line State
+FLOWER	Black-eyed Susan
+BIRD	Baltimore Oriole
+TREE	White Oak
+SONG	Maryland, My Maryland
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/bead-line.gif
+LOCATION	Middle Atlantic
+RETURN	6060
+.
+RECORD	21
+MAP	b_ma_map.gif
+NAME	Massachusetts
+FLAG	b_ma_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/massachusetts.gif
+CAPITAL	Boston
+ADMITTED	Feb 6, 1788
+ORDER	6th
+NICKNAME	Bay State
+FLOWER	Mayflower
+BIRD	Chickadee
+TREE	American Elm
+SONG	All Hail to Massachusetts
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	New England
+RETURN	6070
+.
+RECORD	22
+MAP	b_mi_map.gif
+NAME	Michigan
+FLAG	b_mi_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/michigan.gif
+CAPITAL	Lansing
+ADMITTED	Jan 26, 1837
+ORDER	26th
+NICKNAME	Great Lakes State
+FLOWER	Apple Blossom
+BIRD	Robin
+TREE	White Pine
+SONG	Michigan, My Michigan
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	23
+MAP	b_mn_map.gif
+NAME	Minnesota
+FLAG	b_mn_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/minnesota.gif
+CAPITAL	St. Paul
+ADMITTED	May 11, 1858
+ORDER	32nd
+NICKNAME	North Star State
+FLOWER	Showy Lady's Slipper
+BIRD	Common Loon
+TREE	Red Pine
+SONG	Hail! Minnesota
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	24
+MAP	b_ms_map.gif
+NAME	Mississippi
+FLAG	b_ms_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/mississippi.gif
+CAPITAL	Jackson
+ADMITTED	Dec 10, 1817
+ORDER	20th
+NICKNAME	Magnolia State
+FLOWER	Magnolia
+BIRD	Mockingbird
+TREE	Magnolia
+SONG	Go, Mississippi!
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	Southeastern
+RETURN	6050
+.
+RECORD	25
+MAP	b_mo_map.gif
+NAME	Missouri
+FLAG	b_mo_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/missouri.gif
+CAPITAL	Jefferson City
+ADMITTED	Aug 10, 1821
+ORDER	24th
+NICKNAME	Show Me State
+FLOWER	Hawthorn
+BIRD	Bluebird
+TREE	Dogwood
+SONG	Missouri Waltz
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	26
+MAP	b_mt_map.gif
+NAME	Montana
+FLAG	b_mt_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/montana.gif
+CAPITAL	Helena
+ADMITTED	Nov 8, 1889
+ORDER	41st
+NICKNAME	Treasure State
+FLOWER	Bitterroot
+BIRD	Western Meadowlark
+TREE	Ponderosa Pine
+SONG	Montana
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/bead-line.gif
+LOCATION	Northwestern
+RETURN	6010
+.
+RECORD	27
+MAP	b_ne_map.gif
+NAME	Nebraska
+FLAG	b_ne_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/nebraska.gif
+CAPITAL	Lincoln
+ADMITTED	Mar 1, 1867
+ORDER	37th
+NICKNAME	Cornhusker State
+FLOWER	Goldenrod
+BIRD	Western Meadowlark
+TREE	Cottonwood
+SONG	Beautiful Nebraska
+ACTIVITY	6200&page_passed=b_ne_wdsrch.pl
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/fractal-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	28
+MAP	b_nv_map.gif
+NAME	Nevada
+FLAG	b_nv_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/nevada.gif
+CAPITAL	Carson City
+ADMITTED	Oct 31, 1864
+ORDER	36th
+NICKNAME	Silver State
+FLOWER	Sagebrush
+BIRD	Mountain Bluebird
+TREE	Single-leaf Pinon
+SONG	Home Means Nevada
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/palm-line.gif
+LOCATION	Southwestern
+RETURN	6020
+.
+RECORD	29
+MAP	b_nh_map.gif
+NAME	New Hampshire
+FLAG	b_nh_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/new_hampshire.gif
+CAPITAL	Concord
+ADMITTED	Jun 21, 1788
+ORDER	9th
+NICKNAME	Granite State
+FLOWER	Purple Lilac
+BIRD	Purple Finch
+TREE	Paper White Birch
+SONG	Old New Hampshire
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	New England
+RETURN	6070
+.
+RECORD	30
+MAP	b_nj_map.gif
+NAME	New Jersey
+FLAG	b_nj_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/new_jersey.gif
+CAPITAL	Trenton
+ADMITTED	Dec 18, 1787
+ORDER	3rd
+NICKNAME	Garden State
+FLOWER	Purple Violet
+BIRD	Eastern Goldfinch
+TREE	Red Oak
+SONG	None
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	Middle Atlantic
+RETURN	6060
+.
+RECORD	31
+MAP	b_nm_map.gif
+NAME	New Mexico
+FLAG	b_nm_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/new_mexico.gif
+CAPITAL	Santa Fe
+ADMITTED	Jan 6, 1912
+ORDER	47th
+NICKNAME	Land of Enchantment
+FLOWER	Yucca Flower
+BIRD	Roadrunner
+TREE	Pinon (nut pine)
+SONG	O, Fair New Mexico
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	Southwestern
+RETURN	6020
+.
+RECORD	32
+MAP	b_ny_map.gif
+NAME	New York
+FLAG	b_ny_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/new_york.gif
+CAPITAL	Albany
+ADMITTED	Jul 26, 1788
+ORDER	11th
+NICKNAME	Empire State
+FLOWER	Rose
+BIRD	Bluebird
+TREE	Sugar Maple
+SONG	I Love New York
+ACTIVITY		6900
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/fractal-line.gif
+LOCATION	Middle Atlantic
+RETURN	6060
+.
+RECORD	33
+MAP	b_nc_map.gif
+NAME	North Carolina
+FLAG	b_nc_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/north_carolina.gif
+CAPITAL	Raleigh
+ADMITTED	Nov 21, 1789
+ORDER	12th
+NICKNAME	Old North State
+FLOWER	Dogwood
+BIRD	Cardinal
+TREE	Long-leaf Pine
+SONG	The Old North State
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	Southeastern
+RETURN	6050
+.
+RECORD	34
+MAP	b_nd_map.gif
+NAME	North Dakota
+FLAG	b_nd_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/north_dakota.gif
+CAPITAL	Bismarck
+ADMITTED	Nov 2, 1889
+ORDER	39th
+NICKNAME	Peace Garden State
+FLOWER	Wild Prairie Rose
+BIRD	Western Meadowlark
+TREE	American Elm
+SONG	North Dakota Hymn
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/train-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	35
+MAP	b_oh_map.gif
+NAME	Ohio
+FLAG	b_oh_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/ohio.gif
+CAPITAL	Columbus
+ADMITTED	Mar 1, 1803
+ORDER	17th
+NICKNAME	Buckeye State
+FLOWER	Scarlet Carnation
+BIRD	Cardinal
+TREE	Buckeye
+SONG	Beautiful Ohio
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	36
+MAP	b_ok_map.gif
+NAME	Oklahoma
+FLAG	b_ok_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/oklahoma.gif
+CAPITAL	Oklahoma City
+ADMITTED	Nov 16, 1907
+ORDER	46th
+NICKNAME	Sooner State
+FLOWER	Mistletoe
+BIRD	Scissor-tailed Flycatcher
+TREE	Redbud
+SONG	Oklahoma!
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	South Central
+RETURN	6040
+.
+RECORD	37
+MAP	b_or_map.gif
+NAME	Oregon
+FLAG	b_or_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/oregon.gif
+CAPITAL	Salem
+ADMITTED	Feb 14, 1859
+ORDER	33rd
+NICKNAME	Beaver State
+FLOWER	Oregon Grape
+BIRD	Western Meadowlark
+TREE	Douglas Fir
+SONG	Oregon, My Oregon
+ACTIVITY	6500
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/bead-line.gif
+LOCATION	Northwestern
+RETURN	6010
+.
+RECORD	38
+MAP	b_pa_map.gif
+NAME	Pennsylvania
+FLAG	b_pa_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/pennsylvania.gif
+CAPITAL	Harrisburg
+ADMITTED	Dec 12, 1787
+ORDER	2nd
+NICKNAME	Keystone State
+FLOWER	Mountain Laurel
+BIRD	Ruffed Grouse
+TREE	Hemlock
+SONG	Pennsylvania
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/fractal-line.gif
+LOCATION	Middle Atlantic
+RETURN	6060
+.
+RECORD	39
+MAP	b_ri_map.gif
+NAME	Rhode Island
+FLAG	b_ri_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/rhode_island.gif
+CAPITAL	Providence
+ADMITTED	May 29, 1790
+ORDER	13th
+NICKNAME	Ocean State
+FLOWER	Violet
+BIRD	Rhode Island Red
+TREE	Red Maple
+SONG	Rhode Island
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	New England
+RETURN	6070
+.
+RECORD	40
+MAP	b_sc_map.gif
+NAME	South Carolina
+FLAG	b_sc_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/south_carolina.gif
+CAPITAL	Columbia
+ADMITTED	May 23, 1788
+ORDER	8th
+NICKNAME	Palmetto State
+FLOWER	Yellow Jessamine
+BIRD	Carolina Wren
+TREE	Cabbage Palmetto
+SONG	South Carolina On My Mind
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	Southeastern
+RETURN	6050
+.
+RECORD	41
+MAP	b_sd_map.gif
+NAME	South Dakota
+FLAG	b_sd_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/south_dakota.gif
+CAPITAL	Pierre
+ADMITTED	Nov 2, 1889
+ORDER	40th
+NICKNAME	Mount Rushmore State
+FLOWER	Pasqueflower
+BIRD	Ring-necked Pheasant
+TREE	Black Hills Spruce
+SONG	Hail, South Dakota
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	42
+MAP	b_tn_map.gif
+NAME	Tennessee
+FLAG	b_tn_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/tennessee.gif
+CAPITAL	Nashville
+ADMITTED	Jun 1, 1796
+ORDER	16th
+NICKNAME	Volunteer State
+FLOWER	Iris
+BIRD	Mockingbird
+TREE	Tulip Poplar
+SONG	The Tennessee Waltz
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	Southeastern
+RETURN	6050
+.
+RECORD	43
+MAP	b_tx_map.gif
+NAME	Texas
+FLAG	b_tx_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/texas.gif
+CAPITAL	Austin
+ADMITTED	Dec 29, 1845
+ORDER	28th
+NICKNAME	Lone Star State
+FLOWER	Bluebonnet
+BIRD	Mockingbird
+TREE	Pecan
+SONG	Texas, Our Texas
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	South Central
+RETURN	6040
+.
+RECORD	44
+MAP	b_ut_map.gif
+NAME	Utah
+FLAG	b_ut_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/utah.gif
+CAPITAL	Salt Lake City
+ADMITTED	Jan 4, 1896
+ORDER	45th
+NICKNAME	Beehive State
+FLOWER	Sego Lily
+BIRD	Seagull
+TREE	Blue Spruce
+SONG	Utah, We Love Thee
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	Southwestern
+RETURN	6020
+.
+RECORD	45
+MAP	b_vt_map.gif
+NAME	Vermont
+FLAG	b_vt_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/vermont.gif
+CAPITAL	Montpelier
+ADMITTED	Mar 4, 1791
+ORDER	14th
+NICKNAME	Green Mountain State
+FLOWER	Red Clover
+BIRD	Hermit Thrush
+TREE	Sugar Maple
+SONG	Hail, Vermont
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/fractal-line.gif
+LOCATION	New England
+RETURN	6070
+.
+RECORD	46
+MAP	b_va_map.gif
+NAME	Virginia
+FLAG	b_va_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/virginia.gif
+CAPITAL	Richmond
+ADMITTED	Jun 25, 1788
+ORDER	10th
+NICKNAME	Old Dominion
+FLOWER	Dogwood
+BIRD	Cardinal
+TREE	Dogwood
+SONG	Carry Me Back To Old Virginia
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	ff0000
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	Southeastern
+RETURN	6050
+.
+RECORD	47
+MAP	b_wa_map.gif
+NAME	Washington
+FLAG	b_wa_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/washington.gif
+CAPITAL	Olympia
+ADMITTED	Nov 11, 1889
+ORDER	42nd
+NICKNAME	Evergreen State
+FLOWER	Western Rhododendron
+BIRD	Willow Goldfinch
+TREE	Western Hemlock
+SONG	Washington, My Home
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	Northwestern
+RETURN	6010
+.
+RECORD	48
+MAP	b_wv_map.gif
+NAME	West Virginia
+FLAG	b_wv_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/west_virginia.gif
+CAPITAL	Charleston
+ADMITTED	Jun 20, 1863
+ORDER	35th
+NICKNAME	Mountain State
+FLOWER	Big Rhododendron
+BIRD	Cardinal
+TREE	Sugar Maple
+SONG	This Is My West Virginia
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	Southeastern
+RETURN	6050
+.
+RECORD	49
+MAP	b_wi_map.gif
+NAME	Wisconsin
+FLAG	b_wi_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/wisconsin.gif
+CAPITAL	Madison
+ADMITTED	May 29, 1848
+ORDER	30th
+NICKNAME	Badger State
+FLOWER	Wood Violet
+BIRD	Robin
+TREE	Sugar Maple
+SONG	On, Wisconsin!
+ACTIVITY	6300
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/fractal-line.gif
+LOCATION	North Central
+RETURN	6030
+.
+RECORD	50
+MAP	b_wy_map.gif
+NAME	Wyoming
+FLAG	b_wy_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/wyoming.gif
+CAPITAL	Cheyenne
+ADMITTED	Jul 10, 1890
+ORDER	44th
+NICKNAME	Equality State
+FLOWER	Indian Paintbrush
+BIRD	Meadowlark
+TREE	Cottonwood
+SONG	Wyoming
+ACTIVITY
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  
+TEXTCOLOR   000000	ff00ff
+LINE	../htdocs/library/graphics/b/mcolor-line.gif
+LOCATION	Northwestern
+RETURN	6010
+.
+RECORD	51
+MAP	b_dc_map.gif
+NAME	Washington, D.C.
+FLAG	b_usa_flag.gif
+FLAG_IMG ../htdocs/library/graphics/b/flags/lrg_img/washington_dc.gif
+CAPITAL	None
+ADMITTED	None	
+ORDER	None
+NICKNAME	None
+FLOWER	None
+BIRD	Bald Eagle
+TREE	None
+SONG	Star Spangled Banner
+ACTIVITY	6920 
+BACKGROUND	../htdocs/library/graphics/pzl2.gif  	
+TEXTCOLOR   000000	
+LINE	../htdocs/library/graphics/b/flag-line.gif
+LOCATION	Middle Atlantic
+RETURN	6060
+.
