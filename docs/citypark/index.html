@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KidsTown CityPark (Preview)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /* Same palette/typeface as the main docs/index.html landing page,
+     so this feels like part of the same site rather than a bolt-on. */
+  body {
+    font-family: Georgia, serif;
+    background: #EEE2B4;
+    color: #222;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    line-height: 1.5;
+  }
+  h1 { text-align: center; }
+  a { color: #204a87; }
+
+  .kt-banner {
+    background: #fff8e1;
+    border: 1px solid #d8c98a;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #kt-name-screen input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.4rem;
+    width: 12rem;
+  }
+
+  #kt-story img { float: left; margin: 0 1rem 0.5rem 0; }
+  #kt-story p, #kt-story { overflow: auto; } /* clear the floated <img> */
+
+  button.kt-choice {
+    font-family: inherit;
+    font-size: 1rem;
+    background: #204a87;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4rem 0.9rem;
+    margin: 0.25rem 0.4rem 0.25rem 0;
+    cursor: pointer;
+  }
+  button.kt-choice:hover { background: #16305c; }
+
+  #kt-dead-end {
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    background: #fdecea;
+    border: 1px solid #e0a8a0;
+    border-radius: 6px;
+  }
+
+  #kt-controls { margin-top: 2rem; font-size: 0.9rem; }
+  #kt-controls a, #kt-controls button {
+    font-family: inherit;
+    font-size: 0.9rem;
+  }
+
+  footer { margin-top: 3rem; font-size: 0.85rem; text-align: center; color: #555; }
+</style>
+</head>
+<body>
+
+<h1>CityPark</h1>
+
+<p class="kt-banner">
+  🚧 <strong>Work in progress:</strong> this is a small, playable slice
+  (rooms 1&ndash;5) of the original 1998 KidsTown "CityPark" text
+  adventure, ported from Perl CGI to a static page that runs entirely
+  in your browser. More rooms are being converted next &mdash; if you
+  reach a choice that isn't ready yet, you'll see a note saying so
+  instead of a broken link.
+</p>
+
+<!-- Screen 1: ask the player's name once, so the story can address
+     them by it (the original CGI did this via a query-string
+     parameter; here it's just a small form + localStorage). -->
+<div id="kt-name-screen">
+  <p>What's your name, adventurer?</p>
+  <form id="kt-name-form">
+    <input id="kt-name-input" type="text" maxlength="30" placeholder="Explorer" autocomplete="off">
+    <button type="submit" class="kt-choice">Start</button>
+  </form>
+</div>
+
+<!-- Screen 2: the story itself. Hidden until a name is chosen. -->
+<div id="kt-play-screen" hidden>
+  <div id="kt-story"></div>
+  <div id="kt-dead-end" hidden>
+    This part of the story hasn't been converted from the original CGI
+    yet &mdash; check back soon!
+  </div>
+  <div id="kt-controls">
+    <button type="button" id="kt-restart" class="kt-choice">Restart</button>
+    &nbsp;|&nbsp;
+    <a href="../index.html">&larr; Back to the KidsTown project page</a>
+  </div>
+</div>
+
+<footer>
+  Generated from kidstown_cgi-main/data/citypark by generate_citypark_demo.pl
+</footer>
+
+<script>
+/*---------------------------------------------------------------------
+ * CityPark demo player (client-side single-page app)
+ *
+ * How this fits together:
+ *   generate_citypark_demo.pl reads the original CGI story files and
+ *   writes ./story.json, shaped like:
+ *     { "start": 1, "pages": { "1": "<html for room 1>", ... } }
+ *   Room HTML already contains <button class="kt-choice"
+ *   data-target="N"> elements in place of the original CGI links, and
+ *   "{{NAME}}" wherever the story used to insert the player's name.
+ *
+ *   Everything below just has to: load that JSON once, remember/collect
+ *   the player's name, and render one room at a time, swapping the
+ *   #kt-story div's contents when a choice button is clicked -- no page
+ *   reloads, which is what makes this a "single-page app" rather than a
+ *   set of separate HTML files like the old CGI generated.
+ *
+ * State kept in localStorage (so a refresh doesn't lose your spot):
+ *   kt-citypark-name         - the player's chosen name
+ *   kt-citypark-current-page - the room number they're currently on
+ *-------------------------------------------------------------------*/
+
+var STORAGE_NAME = "kt-citypark-name";
+var STORAGE_PAGE = "kt-citypark-current-page";
+
+var storyData = null; // filled in once story.json has loaded
+
+var nameScreen  = document.getElementById("kt-name-screen");
+var playScreen  = document.getElementById("kt-play-screen");
+var nameForm    = document.getElementById("kt-name-form");
+var nameInput   = document.getElementById("kt-name-input");
+var storyDiv    = document.getElementById("kt-story");
+var deadEndDiv  = document.getElementById("kt-dead-end");
+var restartBtn  = document.getElementById("kt-restart");
+
+// --- load the converted story, then decide which screen to show -------
+fetch("story.json")
+  .then(function (response) { return response.json(); })
+  .then(function (data) {
+    storyData = data;
+
+    var savedName = localStorage.getItem(STORAGE_NAME);
+    if (savedName) {
+      showPlayScreen();
+      var savedPage = parseInt(localStorage.getItem(STORAGE_PAGE), 10);
+      renderPage(isNaN(savedPage) ? storyData.start : savedPage);
+    }
+    // otherwise: leave the name screen showing (it's visible by default)
+  })
+  .catch(function (err) {
+    storyDiv.textContent = "Couldn't load story.json: " + err;
+  });
+
+// --- name screen: save the name, then start the story ------------------
+nameForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+  var name = nameInput.value.trim() || "Explorer";
+  localStorage.setItem(STORAGE_NAME, name);
+  showPlayScreen();
+  renderPage(storyData.start);
+});
+
+function showPlayScreen() {
+  nameScreen.hidden = true;
+  playScreen.hidden = false;
+}
+
+// --- render one room of the story ---------------------------------------
+function renderPage(pageNumber) {
+  var html = storyData.pages[String(pageNumber)];
+
+  if (!html) {
+    // The player reached a choice that points at a room we haven't
+    // converted yet (e.g. rooms 6+ in the original CGI story). Rather
+    // than show a broken page, say so and let them keep the room
+    // they're already on.
+    deadEndDiv.hidden = false;
+    return;
+  }
+
+  deadEndDiv.hidden = true;
+  localStorage.setItem(STORAGE_PAGE, pageNumber);
+
+  var name = localStorage.getItem(STORAGE_NAME) || "Explorer";
+  storyDiv.innerHTML = html.split("{{NAME}}").join(name);
+}
+
+// --- handle clicks on any "kt-choice" button, wherever it renders ------
+// Event delegation: buttons are re-created every renderPage() call, so
+// we listen on the container once instead of re-attaching handlers.
+storyDiv.addEventListener("click", function (event) {
+  var button = event.target.closest(".kt-choice");
+  if (!button) return;
+
+  var target = button.getAttribute("data-target");
+  if (target === "menu") {
+    // The original CGI's "Back" link at the start of the story goes to
+    // its main menu, which this preview doesn't include yet.
+    window.location.href = "../index.html";
+    return;
+  }
+
+  renderPage(parseInt(target, 10));
+});
+
+// --- start over -----------------------------------------------------
+restartBtn.addEventListener("click", function () {
+  localStorage.removeItem(STORAGE_PAGE);
+  renderPage(storyData.start);
+  window.scrollTo(0, 0);
+});
+</script>
+
+</body>
+</html>

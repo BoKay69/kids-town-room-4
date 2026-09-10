@@ -49,6 +49,12 @@ print $out <<HTML;
   img.hero { display: block; margin: 1.5rem auto; }
   footer { margin-top: 3rem; font-size: 0.85rem; text-align: center; color: #555; }
   a { color: #204a87; }
+  .kt-progress {
+    background: #fff8e1;
+    border: 1px solid #d8c98a;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+  }
 </style>
 </head>
 <body>
@@ -62,6 +68,12 @@ The interactive site ran on Perl CGI scripts, which GitHub Pages cannot
 execute; browse the original source, including <code>cgi-bin/kt.cgi</code>
 and the supporting <code>scripts/</code> directory, in the
 <a href="https://github.com/BoKay69/kids-town-room-4">project repository</a>.</p>
+
+<p class="kt-progress">🚧 <strong>In progress:</strong> we're porting the
+original interactive story pages to static, browser-playable versions.
+<a href="citypark/">Try the first few rooms of the CityPark adventure</a>
+&mdash; more of the story is converted from the old CGI scripts to a
+static SPA at <code>generate_citypark_demo.pl</code> as work continues.</p>
 
 <footer>Generated from README.md by generate_site.pl</footer>
 </body>
